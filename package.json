@@ -1,0 +1,26 @@
+{
+  "name": "db-differentiator",
+  "version": "1.0.0",
+  "description": "Compare two MySQL/MariaDB databases - tables, schemas, and row data",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "mysql",
+    "mariadb",
+    "database",
+    "compare",
+    "diff"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "mysql2": "^3.9.7"
+  }
+}
